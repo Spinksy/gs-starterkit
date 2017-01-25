@@ -1,0 +1,25 @@
+{
+  "name": "gs-starterkit",
+  "version": "1.0.0",
+  "description": "App template",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "test",
+    "dev": "lite-server"
+  },
+  "keywords": [
+    "app",
+    "template"
+  ],
+  "dependencies": {
+    "angular": "1.6.1",
+    "bootstrap": "3.3.7"
+  },
+  "devDependencies": {
+    "angular-route": "^1.6.1",
+    "jquery": "^3.1.1",
+    "lite-server": "^2.2.2"
+  },
+  "author": "Glenn Spinks",
+  "license": "ISC"
+}

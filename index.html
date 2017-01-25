@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="gsApp">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Starter Kit</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div ng-controller="homeController as vm">
+        <h1 class="pageTitle">{{vm.title}}</h1>
+    </div>
+    
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="src/app.js"></script>
+    <script src="src/home/home-controller.js"></script>
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
